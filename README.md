@@ -1,1 +1,0 @@
-# mechykola.github.io
