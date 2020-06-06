@@ -1,19 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Divider } from '@material-ui/core'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          (// Portfolio)
-        </p>
-        <p>
-          (// TODO)
-        </p>
+        <h1>
+          Hi! I'm Mykola
+        </h1>
+        <p>This is my website! Scroll down to see more...</p>
       </header>
+      <h1>
+        About me
+      </h1>
+      <Divider />
+      <p>
+        I'm currently a computer science student at the University of Bristol.
+      </p>
     </div>
   );
 }
