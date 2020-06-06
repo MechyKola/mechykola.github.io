@@ -9,7 +9,8 @@ function App() {
         <h1>
           Hi! I'm Mykola
         </h1>
-        <p>This is my website! Scroll down to see more...</p>
+        <p className="Quote">"Code is kinda cool but I wouldn't do it as a job"</p>
+        <p className="Author"> - me, before becoming a software engineer</p>
       </header>
       <h1>
         About me
