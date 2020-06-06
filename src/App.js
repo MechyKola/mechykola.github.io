@@ -8,8 +8,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          // Portfolio
-          // TODO
+          (// Portfolio)
+        </p>
+        <p>
+          (// TODO)
         </p>
       </header>
     </div>
