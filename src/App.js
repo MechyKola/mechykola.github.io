@@ -24,7 +24,7 @@ function App() {
             </h1>
             <Divider />
             <p>
-              I'm currently study computer science at the University of Bristol.
+              I currently study computer science at the University of Bristol.
               Outside my studies I am the president of The CSS (Computer Science Society)
               of the University of Bristol, and take part in the Russian speaking society.
             </p>
