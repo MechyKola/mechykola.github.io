@@ -3,7 +3,7 @@
 }
 
 .App-header {
-  background-image: linear-gradient(to bottom right, rgb(160, 109, 255), rgb(108, 208, 255));
+  background-image: linear-gradient(to bottom left, rgb(146, 87, 255), rgb(108, 208, 255));
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,6 +25,7 @@
 }
 
 .Avatar {
+  transform: scaleY(-1);
   width: 100%;
   height: 100%;
   overflow: hidden;
