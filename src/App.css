@@ -3,12 +3,12 @@
 }
 
 .App-header {
-  background-image: linear-gradient(to bottom left, rgb(146, 87, 255), rgb(108, 208, 255));
+  background-image: linear-gradient(to bottom right, rgb(201, 172, 255), rgb(138, 212, 255));
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 3vmin);
   color: white;
   padding-left: 5vmin;
 }
@@ -16,12 +16,12 @@
 .Quote {
   margin-top: 0px;
   margin-bottom: 0px;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 3vmin);
   font-style: italic;
 }
 
 .Author {
-  font-size: calc(2vmin);
+  font-size: calc(3vmin);
 }
 
 .Avatar {
@@ -33,5 +33,24 @@
 }
 
 .About-item {
-  padding: 4%;
+  font-size: calc(2vmin);
+  padding: 2%;
+}
+
+.Content {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.Content-item {
+  font-size: calc(2vmin)
+}
+
+.Icon {
+  padding: 10px;
+  max-height: 40px;
+  max-width: 40px;
+  color: black;
 }

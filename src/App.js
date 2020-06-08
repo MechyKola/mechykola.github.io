@@ -1,7 +1,9 @@
 import React from 'react';
-import { Divider, Grid, Box } from '@material-ui/core'
+import { Divider, Grid, Box } from '@material-ui/core';
+import { Mail, LinkedIn, GitHub } from '@material-ui/icons';
 import './App.css';
 import avatar from './avatar.jpg';
+
 
 function App() {
   return (
@@ -13,8 +15,8 @@ function App() {
         <p className="Quote">"Code is kinda cool but I wouldn't do it as a job"</p>
         <p className="Author"> - me, before becoming a software engineer</p>
       </header>
-      <content>
-        <Grid container justify="space-evenly" className="About-item">
+      <Box className="Content">
+        <Grid container justify="space-evenly" spacing={8}>
           <Grid item xs={8} lg={4} className="About-item">
             <img src={avatar} alt="Avatar" className="Avatar" />
           </Grid>
@@ -25,17 +27,43 @@ function App() {
             <Divider />
             <p>
               I currently study computer science at the University of Bristol.
-              Outside my studies I am the president of The CSS (Computer Science Society)
-              of the University of Bristol, and take part in the Russian speaking society.
+            </p>
+            <a href="https://github.com/MechyKola/Resume">
+              You can download the latest version of my resume on my Github here
+            </a>
+            <br />
+            <br />
+            <a href="google.com">
+              <Mail fontSize="large" className="Icon" />
+            </a>
+            <a href="github.com">
+              <LinkedIn fontSize="large" className="Icon" />
+            </a>
+            <a href="linkedin.com">
+              <GitHub fontSize="large" className="Icon" />
+            </a>
+          </Grid>
+          <Grid item xs={12} lg={6} className="Content-item">
+            <h2>
+              Employment
+            </h2>
+            <p>
+              > point 1
+            </p>
+            <p>
+              > point 2
+            </p>
+          </Grid>
+          <Grid item xs={12} lg={6} className="Content-item">
+            <h2>
+              Extra Curricular
+            </h2>
+            <p>
+              > something
             </p>
           </Grid>
         </Grid>
-        <Box s={12}>
-          <p>
-            Something about what I've done I guess
-          </p>
-        </Box>
-      </content>
+      </Box>
     </div>
   );
 }
