@@ -12,8 +12,8 @@ function App() {
         <h1>
           Hi! I'm Mykola
         </h1>
-        <p className="Quote">"Code is kinda cool but I wouldn't do it as a job"</p>
-        <p className="Author"> - me, before becoming a software engineer</p>
+        <p className="Quote">"A picture may be worth a thousand words, a formula is worth a thousand pictures"</p>
+        <p className="Author"> - Edsger W. Dijkstra</p>
       </header>
       <Box className="Content">
         <Grid container justify="space-evenly" spacing={8}>
