@@ -33,13 +33,13 @@ function App() {
             </a>
             <br />
             <br />
-            <a href="google.com">
+            <a href="mailto:mv.nechyporuk@gmail.com">
               <Mail fontSize="large" className="Icon" />
             </a>
-            <a href="github.com">
+            <a href="https://github.com/MechyKola">
               <LinkedIn fontSize="large" className="Icon" />
             </a>
-            <a href="linkedin.com">
+            <a href="https://www.linkedin.com/in/mykolan/">
               <GitHub fontSize="large" className="Icon" />
             </a>
           </Grid>
