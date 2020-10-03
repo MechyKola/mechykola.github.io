@@ -43,12 +43,12 @@ function App() {
           </Grid>
           <Grid item xs={12} lg={6} className="Content-item">
             <h2>Employment</h2>
-            <p>> point 1</p>
-            <p>> point 2</p>
+            <p>{">"} point 1</p>
+            <p>{">"} point 2</p>
           </Grid>
           <Grid item xs={12} lg={6} className="Content-item">
             <h2>Extra Curricular</h2>
-            <p>> something</p>
+            <p>{">"} something</p>
           </Grid>
         </Grid>
       </Box>
